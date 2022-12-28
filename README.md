@@ -14,16 +14,16 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Silvyamelia Perdani's Cloud Journey
 
-[✍️ Introduce yourself]
+Hi, my name is Silvyamelia Perdani, and I am a sysadmin newbie
 
-[✍️ Tell us why you started this challenge]
+Doing everything I can to learn about cloud computing. I hope I can do it and continue to have the enthusiasm to learn.
 
-[✍️ Tell us where you want to be at the end of the challenge]
+The goal is to become more knowledgeable about the concept of cloud computing. And bismillah, my dream is to become a Cloud Engineer. Spirit !
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [Twitter](https://twitter.com/silvyameliaa_)
+- [LinkedIn](https://www.linkedin.com/in/silvyamelia-perdani-94a5a7219/)
 
 ## Stepping out the door
 
