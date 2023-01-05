@@ -1,5 +1,5 @@
 
-# Days 1 - Virtualisasi dan Basic Linux (mentor : Diana Zuniarti)
+# Day1 1 - Virtualisasi dan Basic Linux (mentor : Diana Zuniarti)
 
 ## Introduction
 untuk pemula di bidang cloud dan sysadmin, kita perlu memahami apa itu virtualisasi dan basic linux. pada journey pertama saya ini, kita akan membahas 
