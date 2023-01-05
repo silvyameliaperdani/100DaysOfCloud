@@ -1,52 +1,79 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Days 1 - Virtualisasi dan Basic Linux (mentor : Diana Zuniarti)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+untuk pemula di bidang cloud dan sysadmin, kita perlu memahami apa itu virtualisasi dan basic linux. pada journey pertama saya ini, kita akan membahas 
+beberapa hal sebagai berikut :
+ 1. Pengenalan Virtualisasi 
+ 2. Hirarki File Linux
+ 3. Perintah Dasar di Linux
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+ 1. Virtualisasi, teknologi yang menciptakan versi virtual dari sesuatu, baik itu server, ruang penyimpanan dll.
 
-## Try yourself
+-  Virtual Machine adalah sebuah perangkat lunak atau sistem operasi virtual yang bisa digunakan pada sebuah perangkat keras bersama dengan OS asli pada perangkat fisik. Dengan virtual machine kita dapat menjalankan aplikasi / program pada perangkat fisik secara virtual seperti halnya kita menggunakan perangkat yang berbeda. Atau lebih singkat nya kita membuat komputer virtual diatas komputer fisik. 
+ 
+ ![image](https://user-images.githubusercontent.com/121029600/210696499-d0971bcf-ae95-4ac3-b985-28674bcd43c0.png)
+ 
+foto : diambil dari video Aguna Course - Virtual Machine Fundamental 
+ 
+- Arsitektur Virtual Machine
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+![image](https://user-images.githubusercontent.com/121029600/210697466-a2f99d2b-7af1-42cc-ac26-c87ad3b276b1.png)
 
-### Step 1 — Summary of Step
+foto : diambil dari video Aguna Course - Virtual Machine Fundamental 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Contoh Hypervisor Bare-Mental Architecture: proxmox, vmware ESXi
 
-### Step 1 — Summary of Step
+Contoh Hypervisor Hosted Architecture : vmware, VirtualBox
 
-![Screenshot](https://via.placeholder.com/500x300)
+2. Hirarki File Linux 
+  Berikut struktur dari Direktori yang ada di Linux 
+  
+![image](https://user-images.githubusercontent.com/121029600/210698914-618b3e8b-b3bb-4c86-a9a4-75b87894ad0d.png)
 
-### Step 3 — Summary of Step
+/root : direktori paling tertinggi, atas direktori sistem pokok
 
-![Screenshot](https://via.placeholder.com/500x300)
+/bin  : berisi file executable untuk digunakan oleh sistem 
 
-## ☁️ Cloud Outcome
+/boot : berisi file untuk keperluan booting sistem operasi
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+/dev  : berisi file-file device
 
-## Next Steps
+/etc  : tempat menyimpan konfigurasi
 
-✍️ Describe what you think you think you want to do next.
+/home : untuk menyimpan file-file milik user
 
-## Social Proof
+/lib  : berisi file library
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+/mnt  : digunakan untuk memount file temporary
 
-[link](link)
+/proc : berisi file-file yang mempunyai informasi tentang proses yang sedang dijalankan oleh sistem operasi
+
+/sbin : sama saja dengan /bin, hanya saja yang disimpan adalah file-file binary
+
+/tmp  : berisi file-file temporary yang digunakan selama sistem operasi berjalan
+
+/usr  : direktori ini bisa digunakan oleh seluruh user untuk berbagai kepentingan, seperti 
+sharing folder 
+
+/var  : berisi file-file variable, seperti file mail,log dll.
+
+3. Perintah - Perintah Dasar di Linux 
+- cd = perintah untuk masuk ke direktori yang diinginkan
+- cp = perintah untuk mengcopy file/direktori
+- mv = perintah untuk memindahkan file dan juga bisa untuk rename file 
+- touch = perintah untuk membuat file
+- rm = perintah untuk menghapus file 
+- mkdir = perintah untuk membuat direktori
+- cp -r = perintah untuk mengcopy direktori beserta isinya 
+- rmdir = perintah untuk menghapus direktori kosong 
+- clear = perintah untuk menghapus tampilan yang ada di layar 
+- history = perintah untuk melihat command apa saja yang telah kita jalankan 
+- nano = perintah untuk mengedit file 
+- ls  = melihat isi direktori 
+- pwd = untuk menunjukkan posisi kita sekarang 
+- echo ".." >> untuk menambahkan kalimat pada file 
+- echo ".." > untuk mereplace isi file dan digantikan dengan kalimat yang ada di perintah  
+
