@@ -18,5 +18,16 @@
  - Provided by Gemalto ( 3rd party )
 - Hardware Key Fob MFA Device for AWS GovCloud ( US )
  - Provided by SurePassID ( 3rd party )
+ ## How can Users Access AWS ? 
+  - AWS Management Console (Protected by password + MFA )
+  - AWS Command Line Interface ( CLI ): Protected by access keys 
+  - AWS Software Developer Kit ( SDK ) - For code:protected by access keys
+ ##  IAM Roles For Service 
+ - Some AWS service will need to perform actions on your behalf 
+ - To do so, we will assign permissions to AWS services with IAM Roles 
+ - Common Roles : 
+  - EC2 Instance Roles 
+  - Lambda Function Roles
+ 
 
  
