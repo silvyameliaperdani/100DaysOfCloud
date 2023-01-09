@@ -28,6 +28,10 @@
  - Common Roles : 
   - EC2 Instance Roles 
   - Lambda Function Roles
+  ## IAM Security Tools 
+   - IAM Credentials Report ( account-level )
+   - IAM Access Advisor ( user-level )
+   
  
 
  
