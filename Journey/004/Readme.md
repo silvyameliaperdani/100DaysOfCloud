@@ -9,31 +9,13 @@
   if a password is stolen or hacked, the account is not compromised
   
 ## MFA device options in AWS 
+- Virtual MFA Device 
+ - Google Authenticator ( phone only )
+ - Aunty ( multi-device )
+- Universal 2nd Factor (U2F) Security Key 
+ - YubiKey by Yubico ( 3rd party )
+- Hardware Key Fob MFA Device 
+ - Provided by Gemalto ( 3rd party )
+- Hardware Key Fob MFA Device for AWS GovCloud ( US )
+ - Provided by SurePassID ( 3rd party )
  
-
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
