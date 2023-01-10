@@ -1,52 +1,39 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# EC2 Part 1 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+## Amazon EC2
+- EC2 : Elastic Compute Cloud : Infrastructure as a Service on AWS
+- EC2 is one of the most popular of AWS' offering, it must be used everywhere
+  EC2, it's not just one service, it's made up of many things at a high level,
+  it mainly consists in the capability of :
+- Renting virtual machines (EC2)
+- Storing data on virtual drives (EBS)
+- Distributing load across machines (ELB)
+- Scaling the services using an auto-scaling group (ASG)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## EC2 sizing & Configurations Options 
+- Operating System (OS): Linux, Windows, o Mac OS 
+- Can set how much the CPU Power, RAM, Storage 
+- Can set Network Card 
+- Firewall rules : security group 
+- Bootstrap script (configure at first launch): EC2 User Data 
 
-## Try yourself
+## EC2 Instance Types -Overview 
+- there are several types of EC2 instances you can use,
+  for different use cases and different functions
+- AWS has the following naming convention : 
+		m5.2xlarge
+  m : instance class 
+  5 : generations instance
+  2xlarge : size within the instance class 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## EC2 Instance Types :
+- General Purpose
+- Compute Optimized 
+- Memory Optimized
+- Storage Optimized 
 
-### Step 1 — Summary of Step
+## EC2 Instance Types : example 
+![image](https://user-images.githubusercontent.com/121029600/211447511-95dcc994-2f8c-4b96-a261-a948aec41574.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
