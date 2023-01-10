@@ -1,52 +1,66 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# EC2 Part 2 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
+## Security Groups 
+- security groups, will be the basis for implementing network security 
+  on the AWS Cloud.
+- they will control how traffic is allowed in and out of the EC2 instance
+- security groups would be very easy, they only contain allow rules.
+- security groups can have rules that refer well to IP addresses
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Security Groups Deeper Dive 
+- security groups are "firewall" on EC2 instances
+- they will arrange : 
+ - Access to Ports 
+ - Authorised IP Ranges - IPV4 and IPV6 
+ - Control of inbound network 
+ - Control of outbound network 
 
-## Try yourself
+## Security Groups Good to Know 
+- Can be attached to multiple instances
+- Locked down to a region/VPC combination 
+- Does live "outside" the EC2 
+- It's good to maintain one separate security group for SSH access 
+- If your application is not accessible (time out), then it's a seurity group issue 
+- If your application gives a "connection refursed" error, then it's an application 
+  error or it's not launched 
+- By default, all inbound traffic is blocked 
+- By default, all outbound traffic is authorised
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Classis Ports 
+- 22 = SSH (Secure Shell) - log into a Linux instance 
+- 21 = FTP (File Transfer Protocol) - upload file into a file share 
+- 22 = SFTP (Secure File Transfer Potocol) - upload file using SSH  
+- 80 = HTTP - access unsecured wesites 
+- 443 = HTTPS - access secured websites 
+- 3389 = RDP (Remote Desktop Protocol) - log into a Windows instances 
 
-### Step 1 — Summary of Step
+## EC2 On Demand 
+- Pay for what you use :
+ - Linux or Windows - biling per seond, after the first minute 
+ - All other operating systems - biling per hour 
+- Has the highest cost but no upfront payment 
+- No long-term commitment 
+- Recommended for short-term and up-interrupted workloads
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Shared Responsibility Model for EC2 
+AWS
+- Infrastructure (global network security)
+- Isolation on physical hosts
+- Replacing faulty hardware
+- Compliance validation 
+User 
+- Security Groups rules 
+- Operating-system patches and updates
+- Software and utilities installed on the EC2 instance
+- IAM Roles assigned to EC2 & IAM user access management 
+- Data security on your instance
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## EC2 Summary 
+- EC2 Instace and they consist of AMI (OS) + Instance Size (CPU + RAM) + Storage +   security groups + EC2 User Data 
+- Security Groups, Firewall attached to the EC2 instance 
+- EC2 User Data is the script we launch on the first startup of the instance that     we use to set up our EC2 instance to be a web server
+- ssh is how we start the terminal from our computer to our EC2 instances [port 22]
+- Purhasing Options : On-Demand, Spot, Reserved (Standard + Convertible +             Scheduled), Dedicated Host, Dedicated Instance
