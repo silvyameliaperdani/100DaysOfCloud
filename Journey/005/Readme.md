@@ -23,10 +23,14 @@
 - there are several types of EC2 instances you can use,
   for different use cases and different functions
 - AWS has the following naming convention : 
+		
 		m5.2xlarge
-  m : instance class 
-  5 : generations instance
-  2xlarge : size within the instance class 
+ 
+ m : instance class 
+ 
+ 5 : generations instance
+ 
+ 2xlarge : size within the instance class 
 
 ## EC2 Instance Types :
 - General Purpose
