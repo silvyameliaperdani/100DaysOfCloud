@@ -27,13 +27,13 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [Day1 - Virtualisasi dan Perintah Dasar di Linux](Journey/001/Readme.md)
+- [ ] ☁️ 1 > [Meet1 - Virtualisasi dan Perintah Dasar di Linux](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [Day2 - Introduction Cloud Computing](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [Day3 - IAM [Identity and Access Management] ](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [Day4 - IAM [Multi-Factor Authentication - MFA ] ](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [Day5 - EC2 Part 1 ](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [Day6 - EC2 Part 2 ](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [Day7 - User & Group Management, File Permissions](Journey/007/Readme.md)
+- [ ] ☁️ 7 > [Meet2 - User & Group Management, File Permissions](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
