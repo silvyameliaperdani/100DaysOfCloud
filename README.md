@@ -32,7 +32,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 7 > [Meeet2 - User & Group Management, File Permissions](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [EC2 Istance Storage](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [EC2 Image Builder, EC2 Istance Storage & EFS](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [Day10 - ](Journey/010/Readme.md)
+- [ ] ☁️ 10 > [ELB [Elastic Load Balancing] & ASG [Auto Scalling Groups] ](Journey/010/Readme.md)
 
 ## Walking down the road
 
