@@ -1,52 +1,40 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# 
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
+## EC2 Image Builder
+- This is used to automate virtual machine creation, maintain, validate and test AMIs.
+- EC2 Image Builder can run on schedule
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## EC2 Instance Store
+ - EBS Volume has limited performance 
+ - If you nee high-perfomance hardware disk use EC2 Instance Store
+ - Better I/O Performance
+ 
+## EFS - Elastic File System 
+ it's the third type of storage that can be attached to an EC2 instance.
+EFS is a managed network file system. and can be attached to 100s of EC2 instances. EFS only works with Linuz EC2 instances, and works across multiple availability zones. EFS is highly available, scalable, and quite expensive (3x gp2), pay per use, and no capacity planning
 
-## Try yourself
+## EFS Infrequent Access [EFS-IA]
+- Storage classes save money on files that are not accessed often.
+- given up to 92% lower data storage costs compared to another class of spikes, called the EFS standard
+- EFS automatically transfers your files to EFS-IA
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Shared Responsbility Model for EC2 Storage 
+AWS 
+ - Infrastucture 
+ - Replication fo data for EBS Volume & EFS Drives
+ - Replacing faulty hardware 
+ - Ensuring their employees cannot access your data
+COSTUMER 
+ - Setting up backup / snpshot procedures
+ - Setting up data encyption
+ - Responsibility of any data on the drives 
+ - Understanding the risk of using EC2 Instance Store 
 
-### Step 1 — Summary of Step
+## Amazon FSx - Overiew 
+- Lunch 3rd party high-performance file systems on AWS 
+- Fully managed service
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+ 
