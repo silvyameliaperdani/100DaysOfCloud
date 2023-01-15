@@ -37,4 +37,17 @@ COSTUMER
 - Lunch 3rd party high-performance file systems on AWS 
 - Fully managed service
 
- 
+## EC2 Instance Storage - Summary 
+- EBS Volume : 
+ - Network drives attached to one EC2 Instance at a time 
+ - Mapped to an Availability Zones 
+ - Can use EBS Snapshots for backups / transferring EBS Volume across AZ 
+- AMI: create ready-to-use EC2 instances with our customizations 
+- EC2 Image Builder: automatically build, test and distribute AMIs 
+- EC2 Instance Store: 
+ - High performance hardware disk attached to our EC2 instance 
+ - Lost if our instance is stopped / terminated 
+- EFS: network file system, can be attached to 100s of instances in a region 
+- EFS-IA: cost-optimized storage class for infrequent accessed files 
+- FSx for Windows:Network File System for Windows servers 
+- FSx for Lustre:High Performance Computing Linux file syste
