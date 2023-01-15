@@ -35,8 +35,8 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 6 > [Day6 - EC2 Part 2 ](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Meet2 - User & Group Management, File Permissions](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [Day8 - EC2 Istance Storage](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [ ] ☁️ 9 > [Day9 -](Journey/009/Readme.md)
+- [ ] ☁️ 10 > [Day10 - ](Journey/010/Readme.md)
 
 ## Walking down the road
 
