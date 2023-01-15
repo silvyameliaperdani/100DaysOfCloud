@@ -1,5 +1,5 @@
 
-# EC2 Instance Storage [ Couse on Udemy By Stepahane Mareek ]
+# EC2 Instance Storage - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
 ## EBS Overview 
