@@ -28,7 +28,8 @@ High Availability usually goes hand in hand with horizontal scaling, running you
 • Auto Scaling Group multi AZ 
 • Load Balancer multi AZ
 
-- ELB (Elastic Load Balancer) is a managed load balancer 
+## What's that Elastic Load Balancer [ELB] ?
+ ELB (Elastic Load Balancer) is a managed load balancer 
  - AWS guarantees that it will be working 
  - AWS takes care of upgrades, maintenance, high availability 
  - AWS provides only a few configuration knobs 
@@ -39,7 +40,7 @@ High Availability usually goes hand in hand with horizontal scaling, running you
  - Gateway Load Balancer –Layer 3 
  - Classic Load Balancer (retired in 2023) –Layer 4 & 7
 
-What's that Auto Scaling Groups [ASG] ?
+## What's that Auto Scaling Groups [ASG] ?
 - In real-life, the load on your websites and application can change 
 - In the cloud, you can create and get rid of servers very quickly 
 - The goal of an Auto Scaling Group (ASG) is to: 
