@@ -49,4 +49,4 @@ and others
 
 
 ## Social Proof
-(https://twitter.com/silvyameliaa_/status/1614814728026738692?s=20&t=FKVmCUmoYShhPfaGRgn7wQ)
+[https://twitter.com/silvyameliaa_/status/1614814728026738692?s=20&t=FKVmCUmoYShhPfaGRgn7wQ] (link)
