@@ -27,3 +27,25 @@ High Availability usually goes hand in hand with horizontal scaling, running you
 - High Availability: Run instances for the same application across multi AZ 
 • Auto Scaling Group multi AZ 
 • Load Balancer multi AZ
+
+- ELB (Elastic Load Balancer) is a managed load balancer 
+ - AWS guarantees that it will be working 
+ - AWS takes care of upgrades, maintenance, high availability 
+ - AWS provides only a few configuration knobs 
+- It costs less to setup your own load balancer but it will be a lot more effort on your end (maintenance, integrations) •
+- 4 kinds of load balancers offered by AWS: 
+ - Application Load Balancer (HTTP / HTTPS only) –Layer 7 
+ - Network Load Balancer (ultra-high performance, allows for TCP) –Layer 4 
+ - Gateway Load Balancer –Layer 3 
+ - Classic Load Balancer (retired in 2023) –Layer 4 & 7
+
+What's that Auto Scaling Groups [ASG] ?
+- In real-life, the load on your websites and application can change 
+- In the cloud, you can create and get rid of servers very quickly 
+- The goal of an Auto Scaling Group (ASG) is to: 
+ - Scale out (add EC2 instances) to match an increased load 
+ - Scale in (remove EC2 instances) to match a decreased load 
+ - Ensure we have a minimum and a maximum number of machines running 
+ - Automatically register new instances to a load balancer 
+ - Replace unhealthy instances 
+ - Cost Savings: only run at an optimal capacity (principle of the cloud)
