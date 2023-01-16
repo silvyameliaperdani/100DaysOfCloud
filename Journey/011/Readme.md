@@ -1,52 +1,52 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Amazon S3 Part 1 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+## Amazon S3 Section 
+Amazon S3 is one of the key building blocks of AWS. this is infinitely scalable storage. Many websites depend on Amazon S3, for example many websites use Amazon S3 as the backbone and many AWS services also use Amazon S3
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Amazon S3 Use Cases 
+- Backup and Storage 
+- Disaster Recovery 
+- Archive 
+- Hybrid Cloud Storage 
+- Application Hosting 
+- Media Hosting 
+- Data Lakes & Big Data Analytics
+- Software Delivery 
+- Static Website
+and others
 
-## Try yourself
+## Amazon S3 - Buckets
+- Buckets can be seen as top-level directories, and actually the files in an S3 bucket are called objects
+- and these buckets, they are created in your account and they must have a globally unique name
+- Buckets are defined at region level
+- there is a naming convention for S3 buckets
+ ~ No uppercase, No underscore 
+ ~ 3-63 characters long 
+ ~ Not an IP 
+ ~ Must start with lowercase letter or number 
+ ~ Must NOT start with the prefix xn--
+ ~ Must NOT end with the suffix -s3alias
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Amazon S3 - Objects 
+- Object [Files] have a Key
+- The key is the Full path 
+- The key is composed of prefix + object name 
+- There's no concept of directories within buckets 
+- Keys with very long names that contain slashes (/)
 
-### Step 1 — Summary of Step
+## Amazon S3 - Objects [cont.]
+- Object values are the content of the body max size is 5TB [5000GB], if uploading more than 5GB, must use "multi-part upload"
+- Metadata [list of text key - system or user metadata]
+- Tags [Unicode key]
+- Version ID [if versioning is enabled]
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Amazon S3 - Security 
+- User-Based [IAM Policies]
+- Resource-Based [Bucked Policies,Object Access Control List,Bucket Access Control List]
+- Encryption  
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+(https://twitter.com/silvyameliaa_/status/1614814728026738692?s=20&t=FKVmCUmoYShhPfaGRgn7wQ)
