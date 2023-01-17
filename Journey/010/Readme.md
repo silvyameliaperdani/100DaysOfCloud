@@ -50,3 +50,8 @@ High Availability usually goes hand in hand with horizontal scaling, running you
  - Automatically register new instances to a load balancer 
  - Replace unhealthy instances 
  - Cost Savings: only run at an optimal capacity (principle of the cloud)
+
+ ## Social Proof
+
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1614775867150061569)
