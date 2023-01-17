@@ -77,3 +77,7 @@ sharing folder
 - echo ".." >> untuk menambahkan kalimat pada file 
 - echo ".." > untuk mereplace isi file dan digantikan dengan kalimat yang ada di perintah  
 
+## Social Proof
+
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1611179173036560385)
