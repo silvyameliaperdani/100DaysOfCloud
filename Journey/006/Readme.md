@@ -59,8 +59,10 @@ User
 - Data security on your instance
 
 ## EC2 Summary 
-- EC2 Instace and they consist of AMI (OS) + Instance Size (CPU + RAM) + Storage +   security groups + EC2 User Data 
+- EC2 Instace and they consist of AMI (OS) + Instance Size (CPU + RAM) + Storage + security groups + EC2 User Data 
 - Security Groups, Firewall attached to the EC2 instance 
-- EC2 User Data is the script we launch on the first startup of the instance that     we use to set up our EC2 instance to be a web server
+- EC2 User Data is the script we launch on the first startup of the instance that we use to set up our EC2 instance to be a web server
 - ssh is how we start the terminal from our computer to our EC2 instances [port 22]
-- Purhasing Options : On-Demand, Spot, Reserved (Standard + Convertible +             Scheduled), Dedicated Host, Dedicated Instance
+- Purhasing Options : On-Demand, Spot, Reserved (Standard + Convertible +Scheduled), Dedicated Host, Dedicated Instance
+
+
