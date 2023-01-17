@@ -47,3 +47,8 @@ In this lesson we will look at the different storage options for EC2 instances.
   - A Public AMI : AWS Provided
   - Your own AMI : you make and maintain them yourself 
   - An AWS Marketplace AMI : an AMI someone else made 
+
+ ## Social Proof
+
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1614774910093766662)
