@@ -41,3 +41,7 @@
 ## EC2 Instance Types : example 
 ![image](https://user-images.githubusercontent.com/121029600/211447511-95dcc994-2f8c-4b96-a261-a948aec41574.png)
 
+ ## Social Proof
+
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1614773749362085890)
