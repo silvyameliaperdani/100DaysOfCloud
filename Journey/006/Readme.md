@@ -65,4 +65,7 @@ User
 - ssh is how we start the terminal from our computer to our EC2 instances [port 22]
 - Purhasing Options : On-Demand, Spot, Reserved (Standard + Convertible +Scheduled), Dedicated Host, Dedicated Instance
 
+ ## Social Proof
 
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1614774110965624834)
