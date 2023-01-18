@@ -68,6 +68,5 @@ Hybrid Cloud for Storage
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
 [Twitter](https://twitter.com/silvyameliaa_/status/1615504069522780162)
