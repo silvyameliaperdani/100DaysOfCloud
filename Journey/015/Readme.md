@@ -1,52 +1,37 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Other Compute Services - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+## Docker
+- Docker is a software development platform for deploying applications
+- With docker, you will package your application into something called container which can run on any OS
+example: EC2 instance which runs docker javascript, docker Mysql, etc.
+- Applications once in waddah will run in the same way
+- Can scale containers very quickly and unload in seconds
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Docker VS Virtual Machines 
+![image](https://user-images.githubusercontent.com/121029600/213897660-669b8924-5b56-4ba0-b435-a84eedcb5e4a.png)
 
-## Try yourself
+## ECS 
+- ECS stands for Elastic Container Service
+- Launch Docker containers on AWS
+- Must provision & maintain the infrastructure (the EC2 instances)
+- AWS takes care of starting / stopping containers
+- And has integrations with the Application Load Balance
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Fargate
+- Launch Docker containers on AWS, no infrastructure required so it's simpler
+- Serverless offering and runs AWS based on CPU/RAM required.
 
-### Step 1 — Summary of Step
+## ECR 
+- ECR stands for Elastic Container Registry
+- ECR is a private Docker Registry on AWS
+- Here you can store docker images and run them on ECS or Fargate
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+## Serveless
+Serverless is a new paradigm in which developers no longer manage servers, initially serverless is FaaS (Function as a Service) pioneered by AWS Lambda.
+example : S3,DynamoDB,Lambda,Fargate
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/silvyameliaa_/status/1616984442207375365)
