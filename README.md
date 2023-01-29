@@ -42,7 +42,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 14 > [Database Part 2 ](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [Other Compute Services Part 1](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [Other Compute Services Part 2](Journey/016/Readme.md)
-- [ ] ☁️ 17 > [](Journey/017/Readme.md)
+- [ ] ☁️ 17 > [Deploying and Managing Infrastructure Part 1](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
