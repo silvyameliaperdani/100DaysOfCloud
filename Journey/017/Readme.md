@@ -1,52 +1,61 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Deploying and Managing Infrastructure Part 1 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+# CloudFormation
+CloudFormation is a declarative way to describe AWS infrastructure, and other resources
+for example you would say :
+	- I want a security group
+	- I want two EC2 instances using this security group
+	- I want an S3 bucket
+	- I want a load balancer (ELB) in front of these machines
+Then CloudFormation builds them for you, in the right order, with the exact configurations you specify
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Benefits of AWS Cloudformation :
+	- Infrastructure as code
+	- Cost
+	- Productivity
+	- Take advantage of templates and  documentation
+	- Support (almost) all AWS resources
+ 
+## CDK 
+CDK stands for AWS Cloud Development Kit
+So this is how you define cloud infrastructure using familiar programming languages
+	-  For example JavaScript, Python, Java, etc.
+The code will be compiled by the CDK into a CloudFormation template that can be used in JSON or YAML format
+Can deploy your application's infrastructure and runtime code together as they may share the same language
+	- Great for Lambda Functions
+	- Great for Docker containers in ECS / EKS 
+example : CDK - CDK CLI - CloudFormation Trmplate - CloudFormation 
 
-## Try yourself
+## Developer Problem on AWS
+- Managing Infrastructure 
+- Deploying Code 
+- Configuring all the database,load balancers,etc
+- Scaling Concerns
+- Most web apps have the same architecture (ALB + ASG)
+- All the developers want is for their code to run 
+- Possibly, consistenly across different application an environment 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Beanstalk 
+Elastic Beanstalk is a developer-centric deployment view the application on AWS
+beanstalk is a development centric view
+has control over the configuration of all components
+Beanstalk is PaaS (Platform as a Service)
+Beanstalk is free but you pay for the underlying instances
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+## Elastic Beanstalk 
+- Manages services like instance configuration, load balancing and auto scaling, etc.
+- Just the application code is the responsibility of the developer 
+- Support for many platfroms :
+	- Go
+	- Java SE
+	- Java with Tomcat 
+	- Node.js, etc
+## Elastic Beanstalk - Health Monitoring 
+- Health agent pushes metrics to CloudWatch
+- Checks for apps health, Publiishes health events 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/silvyameliaa_/status/1619832111002980355)
