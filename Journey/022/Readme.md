@@ -1,52 +1,22 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Cloud Integration - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Introduction
+When we start deploying multiple applications, they inevitably need to communicate with each other
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+There are two patterns of application communication
+-Synchronous communications (application to application)
+-Asynchronous / Event based (application to queue to application)
+If you are used to encoding 10 videos then suddenly need 1000 then Synchronous between apps can be problematic due to sudden spikes in traffic
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
+In this case, it's best to separate your applications:
+-use SQS: queuing model
+-using SNS: pub/sub mode
+-using Kinesis: real-time data streaming models
 ## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## SQS 
+SQS stands for Simple Queue Service which is a liaison between producers and consumers which does not only consist of 1 producer/consumer but can be more.
+Amazon SQS - Standart Queue
+- Fully managed service (serverless), use to decouple applications
+- No limit to how many messages can be in the queue and messages are deleted after they’re read by consumers
+- Low latency
+- Consumers share the work to read messages & scale horizontally
