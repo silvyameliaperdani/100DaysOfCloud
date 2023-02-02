@@ -44,7 +44,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 16 > [Other Compute Services Part 2](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [Deploying and Managing Infrastructure Part 1](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [Deploying and Managing Infrastructure Part 2](Journey/018/Readme.md)
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
+- [ ] ☁️ 19 > [Global Infrastructure Part 1](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
 ## Crossing the bridge
