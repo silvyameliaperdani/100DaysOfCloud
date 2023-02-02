@@ -50,7 +50,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 ## Crossing the bridge
 
 - [ ] ☁️ 21 > [Meet3 - Hostname,Host,and Network Management](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
+- [ ] ☁️ 22 > [Cloud Integration](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
