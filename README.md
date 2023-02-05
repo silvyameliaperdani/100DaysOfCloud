@@ -53,7 +53,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 22 > [Cloud Integration](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [Cloud Monitoring Part 1](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [Cloud Monitoring Part 2](Journey/024/Readme.md)
-- [ ] ☁️ 25 > [](Journey/025/Readme.md)
+- [ ] ☁️ 25 > [VPC And Networking Part 1](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
