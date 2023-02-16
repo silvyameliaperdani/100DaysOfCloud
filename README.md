@@ -56,7 +56,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 25 > [VPC And Networking Part 1](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [VPC And Networking Part 2](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [Security And Compliance Part 1](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
+- [ ] ☁️ 28 > [Security And Compliance Part 2](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
 
