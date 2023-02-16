@@ -1,52 +1,34 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Security And Compliance Part 2 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+## AWS KMS 
+Encryption service in AWS is KMS (Key Management Service),KMS manages encryption keys for us
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## CloudHSM
+is a service that provides encryption hardware and you can manage your own encryption keys completely and tamper resistant.
 
-## Try yourself
+## Types of Customer Master Keys : CMK 
+- Customer Managed CMK: Create, manage and use by customers, can enable or disable, possibility of rotation policy, possibility to bring-your-own-key 
+- AWS managed CMK: Created, managed and used on the customer’s behalf by AWS and used by AWS services (aws/s3, aws/ebs, aws/redshift)
+- AWS owned CMK: Collection of CMKs that an AWS service owns and manages to use in multiple accounts and used to protect the resources in your account.
+- CloudHSM key (custom keystore): Keys are generated from your own CloudHSM hardware and cryptographic operations are performed within the CloudHSM cluster
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## AWS Certificate Manager (ACM)
+- Service used to easily provision, manage, and deploy SSL/TLS Certificates.
+- Provides in-flight encryption for websites (HTTPS)
+- Support public and private TLS certificates, free for public TLS certificates
+- Automatic TLS certificate renewal
 
-### Step 1 — Summary of Step
+## AWS Secrets Manager
+New service used to store secrets and can force the secret to be created with a lambda every X days. integrated with amazon RDS and secrets are encrypted with KMS
 
-![Screenshot](https://via.placeholder.com/500x300)
+## AWS Artifact 
+Portal that provides customers with on-demand access to AWS compliance documentation and AWS agreements
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## Amazon GuardDuty
+- Helps perform intelligent threat discovery to protect your AWS account
+- Uses Machine Learning algorithms, anomaly detection, 3rd party data
+- One click to enable (30 days trial), no need to install software
+- Can protect against CryptoCurrency attacks (has a dedicated “finding” for it)
+- Can setup CloudWatch Event rules to be notified in case of findings,can target AWS Lambda or SNS
