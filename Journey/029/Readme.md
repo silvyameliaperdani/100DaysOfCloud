@@ -1,52 +1,26 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Security And Compliance Part 3 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+## Amazon Inspector
+Service that is used to run automatic security
+For example:
+- EC2 instances, utilizing SSM to Analyze accidental network accessibility and Analyze running OS
+- Container Images push to Amazon ECR, assessment of Container Images as they are pushed
+- Lambda function, Identifying software vulnerabilities and assessing the function when deployed
+- Reporting & integration with AWS Security Hub
+- Send findings to Amazon Event Bridge
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## AWS Config
+So Config helps audit and record source compliance your power by recording its configuration and changes from time to time. Then this configuration data can be saved to Amazon S3, for later analysis by Athena
+- Then you can receive alerts via SNS notifications for any changes made to your infrastructure
+- Per-region services but can be combined across regions and accounts
 
-## Try yourself
+## Amazon Macie
+- Amazon Macie is a fully managed data security and data privacy service that uses machine learning and pattern matching to discover and protect your sensitive data in AWS.
+- Macie helps identify and alert you to sensitive data, such as personally identifiable information (PII)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## AWS Security Hub
+- Central security tool to manage security across several AWS accounts and automate security checks
+- Integrated dashboards showing current security and compliance status to quickly take actions
+- Automatically aggregates alerts in predefined or personal findings formats from various AWS services & AWS partner tools
