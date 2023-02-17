@@ -64,7 +64,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 
 - [ ] ☁️ 31 > [Machine Learning Part 1](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [Machine Learning Part 2](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md)
+- [ ] ☁️ 33 > [Machine Learning Part 3](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)
