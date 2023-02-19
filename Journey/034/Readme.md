@@ -1,52 +1,27 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# AWS Organizations, SCP and Control Tower - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+## AWS Organization 
+You can manage multiple AWS accounts. The primary account will be called the master account and all other accounts will be called child accounts, API is available to automate AWS account creation and Restrict acount privilages using Service Control Policies (SCP)
+## Cost Benefits:
+- Consolidated Billing across all accounts - single payment method
+- Pricing benefits from aggregated usage (volume discount for EC2, S3, etc)
+- Pooling of Reserved EC2 instances for optimal savings
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Service Control Policies (SCP)
+This allows you to whitelist or blacklist IAM actions that are enforced at the OU or account level but do not apply to the master account. SCP has no effect on the master account. So SCP, we're going to look at an example soon. They can only be applied to user and account roles, including root.
 
-## Try yourself
+## Consolidated Biling - AWS Organization 
+- When enabled gives you combined usage,one bill for all accounts
+- The management account can turn off Reserved Instances discount sharing for any account in the AWS Organization, including itself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## AWS Control Tower 
+Easy way to set up and govern a secure and compliant multi-account AWS environment based on best practices
+- Benefits:
+	- Automate the setup of your environment in a few clicks
+	- Automate ongoing policy management using guardrails
+	- Detect policy violations and remediate them
+	- Monitor compliance through an interactive dashboard
+AWS Control Tower runs on top of AWS Organizations, It automatically sets up AWS Organizations to organize accounts and implement SCPs (Service Control Policies)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
