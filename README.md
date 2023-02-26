@@ -75,7 +75,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [Meet4 - IAM (Create Users & Groups](Journey/041/Readme.md)
+- [ ] ☁️ 41 > [Meet4 - IAM (Create Users & Groups)](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)
