@@ -29,7 +29,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 4 > [IAM [Multi-Factor Authentication - MFA ] ](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [EC2 Part 1 ](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [EC2 Part 2 ](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [Meeet2 - User & Group Management, File Permissions](Journey/007/Readme.md)
+- [ ] ☁️ 7 > [Meet2 - User & Group Management, File Permissions](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [EC2 Istance Storage](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [EC2 Image Builder, EC2 Istance Storage & EFS](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [ELB [Elastic Load Balancing] & ASG [Auto Scalling Groups] ](Journey/010/Readme.md)
@@ -71,11 +71,11 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 37 > [Billing and Costing Tools](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [AWS Support Plans](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [AWS STS & Amazon Cognito](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [ ] ☁️ 40 > [AWS Directory Service & AWS IAM Identity Center](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
+- [ ] ☁️ 41 > [Meet4 - IAM (Create Users & Groups](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)
