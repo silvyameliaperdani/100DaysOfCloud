@@ -70,7 +70,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 36 > [Savings Plan & AWS Compute Optimizer](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [Billing and Costing Tools](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [AWS Support Plans](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
+- [ ] ☁️ 39 > [AWS STS & Amazon Cognito](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md)
 
 ## Trekking the dunes
