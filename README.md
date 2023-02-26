@@ -69,7 +69,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 35 > [Pricing Models in AWS](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [Savings Plan & AWS Compute Optimizer](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [Billing and Costing Tools](Journey/037/Readme.md)
-- [ ] ☁️ 38 > [](Journey/038/Readme.md)
+- [ ] ☁️ 38 > [AWS Support Plans](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md)
 
