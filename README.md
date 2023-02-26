@@ -67,7 +67,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 33 > [Machine Learning Part 3](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [AWS Organizations, SCP and Control Tower](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [Pricing Models in AWS](Journey/035/Readme.md)
-- [ ] ☁️ 36 > [](Journey/036/Readme.md)
+- [ ] ☁️ 36 > [Savings Plan & AWS Compute Optimizer](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [](Journey/039/Readme.md)
