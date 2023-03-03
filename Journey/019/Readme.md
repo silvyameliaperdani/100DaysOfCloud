@@ -17,14 +17,14 @@ Global Application in AWS :
 - S3 Transfer Acceleration
 - AWS Global Accelerator
 
-## Amazon 53
+## Amazon S3
 - Route 53 is a DNS (Domain Name System) managing service
 - In AWS, the most common records are :
 	- A
 	- AAAA
 	- CNAME 
 	- Alias 
-# Route 53 Routing Policies 
+# Route S3 Routing Policies 
 - Simple routing policy
 - Weighted routing policy
 - Latency routing policy
@@ -46,3 +46,7 @@ S3 Cross Region Replication:
 - Great for dynamic content that needs to be available at low-latency in some regions
 ## S3 Transfer Acceleration 
 Increase transfer speed by transferring file to an AWS edge location which will forward the data to the S3 bucket in the target region
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1631499172099641352)
