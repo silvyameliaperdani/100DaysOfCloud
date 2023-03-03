@@ -7,3 +7,7 @@ at this meeting we learn about Hostname, Host and network management on debian a
 
 And we collect tasks via this drive :
 [Drive](https://drive.google.com/drive/folders/17DsHva3X3KMbIiUU3ZIpSx9DCkfZDZxQ?usp=sharing)
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1631501517592354817)
