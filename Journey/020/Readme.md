@@ -40,3 +40,7 @@ Example :
 - Single region,multi AZ -> high availibility [√],global latency [X]
 - Multi region,active-passive -> Global Reads’ Latency [√], Global Writes’ Latency [X]
 - Multi Region, Active-Active -> Global Reads’ Latency [√], Global Writes’ Latency [√]
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1631500196881510401)
