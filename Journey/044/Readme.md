@@ -1,49 +1,29 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Amazon Sumerian, AWS IoT, Amazon Elastic Transcoder - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Cloud Research
+## Amazon Sumerian
+- Create and run virtual reality (VR), augmented reality (AR), and 3D applications
+- Can be used to quickly create 3D models with animations
+- Ready-to-use templates and assets - no programming or 3D expertise required
+- Accessible via a web-browser URLs or on popular hardware for AR/VR
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## AWS IoT (Internet of Things)
+- IoT is a network of internet-connected devices capable of collecting and transferring data 
+- AWS IoT Core allows you to easily connect IoT devices to the AWS Cloud
+- Serverless, secure & scalable to billions of devices and trillions of messages
+- Your applications can communicate with your devices even when they aren’t connected
+- Integrates with a lot of AWS services (Lambda, S3, SageMaker, etc)
+- Build IoT applications that gather, process, analyze, and act on data
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Amazon Elastic Transcoder
+Elastic Transcoder is used to convert media files stored in S3 into media files in the formats required by consumer playback devices (phones, tablets, etc)
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+Benefits:
+- Easy to use
+- Highly scalable, can handle large volumes of media files and large file sizes
+- Cost effective, duration-based pricing model
+- Fully managed & secure, pay for what you use
 
 ## Social Proof
 
