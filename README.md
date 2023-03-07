@@ -78,7 +78,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 41 > [Meet4 - IAM (Create Users & Groups)](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [Amazon WorkSpaces & Amazon AppStream 2.0](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [Meet5 - EC2](Journey/043/Readme.md)
-- [ ] ☁️ 44 > [](Journey/044/Readme.md)
+- [ ] ☁️ 44 > [Amazon Sumerian, AWS IoT, Amazon Elastic Transcoder](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [](Journey/047/Readme.md)
