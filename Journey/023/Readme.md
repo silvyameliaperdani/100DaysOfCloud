@@ -45,3 +45,7 @@ CloudWatch Logs for EC2
 - Make sure IAM permissions are correct
 - The CloudWatch log agent can be setup on-premises too
 
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1633314263615021057)
