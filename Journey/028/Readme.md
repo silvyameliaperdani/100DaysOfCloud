@@ -32,3 +32,7 @@ Portal that provides customers with on-demand access to AWS compliance documenta
 - One click to enable (30 days trial), no need to install software
 - Can protect against CryptoCurrency attacks (has a dedicated “finding” for it)
 - Can setup CloudWatch Event rules to be notified in case of findings,can target AWS Lambda or SNS
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1633335217456041984)
