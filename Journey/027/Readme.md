@@ -67,3 +67,7 @@ Define Web ACL ( Web Access Control List ) :
 
 - At rest : data is stored or archived on the device (RDS,S3 Glacier Deep Archive, etc.
 - In transit (moving): data being moved from one location to another
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1633334309301157889)
