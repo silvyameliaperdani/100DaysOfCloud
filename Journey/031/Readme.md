@@ -35,4 +35,4 @@
 
 ## Social Proof
 
-[Twitter](https://twitter.com/silvyameliaa_/status/1633336601312137216)
+[Twitter]https://twitter.com/silvyameliaa_/status/1633337337123057664)
