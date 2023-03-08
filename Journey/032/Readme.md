@@ -33,3 +33,7 @@ Use case: survey about something where there will be sorting by label
 - 50% more accurate than looking at the data itself
 - Reduce forecasting time from months to hours
 - Use cases: Product Demand Planning, Financial Planning, Resource Planning, etc
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1633338547779559424)
