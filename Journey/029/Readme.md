@@ -24,3 +24,7 @@ So Config helps audit and record source compliance your power by recording its c
 - Central security tool to manage security across several AWS accounts and automate security checks
 - Integrated dashboards showing current security and compliance status to quickly take actions
 - Automatically aggregates alerts in predefined or personal findings formats from various AWS services & AWS partner tools
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1633335916382285824)
