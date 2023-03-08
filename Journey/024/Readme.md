@@ -73,4 +73,6 @@ Example: identify if your application is consuming excessive CPU capacity on a l
 - Personal Health Dashboard: AWS events that impact your infrastructure
 - Amazon CodeGuru: automated code reviews and application performance recommendations
 
+## Social Proof
 
+[Twitter](https://twitter.com/silvyameliaa_/status/1633315148273430528)
