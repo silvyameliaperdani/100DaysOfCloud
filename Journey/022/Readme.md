@@ -56,3 +56,6 @@ SNS:
 Kinesis: real-time data streaming, persistence and analysis
 Amazon MQ: managed message broker for ActiveMQ and RabbitMQ in the cloud (MQTT, AMQP.. protocols)
 
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1633313473408167936)
