@@ -48,3 +48,7 @@ it is the most secure and scalable way to expose services to multiple VPCs even 
 - For having transitive peering between thousands of VPC and on-premises, hub-and-spoke (star) connection
 - One single Gateway to provide this functionality
 - Works with Direct Connect Gateway, VPN connections
+
+## Social Proof
+
+[Twitter](https://twitter.com/silvyameliaa_/status/1633332330357219329)
