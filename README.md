@@ -82,8 +82,8 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 45 > [AWS AppSync, AWS Amplify,and AWS Device Farm](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [AWS Backup, Disaster Recovery Strategies, AWS Elastic Disaster Recovery](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [Meet6 - EBS & AMI ](Journey/047/Readme.md)
-- [ ] ☁️ 48 > [](Journey/048/Readme.md)
-- [ ] ☁️ 49 > [](Journey/049/Readme.md)
+- [ ] ☁️ 48 > [AWS DataSync, AWS Application Discovery Service, and AWS MGN](Journey/048/Readme.md)
+- [ ] ☁️ 49 > [AWS FIS, AWS Step Function and AWS Ground Station](Journey/049/Readme.md)
 - [ ] ☁️ 50 > [](Journey/050/Readme.md)
 
 ## Winding through the canyons
