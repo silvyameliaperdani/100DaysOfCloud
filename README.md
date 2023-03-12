@@ -84,11 +84,11 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 47 > [Meet6 - EBS & AMI ](Journey/047/Readme.md)
 - [ ] ☁️ 48 > [AWS DataSync, AWS Application Discovery Service, and AWS MGN](Journey/048/Readme.md)
 - [ ] ☁️ 49 > [AWS FIS, AWS Step Function and AWS Ground Station](Journey/049/Readme.md)
-- [ ] ☁️ 50 > [](Journey/050/Readme.md)
+- [ ] ☁️ 50 > [Amazon Pinpoint, Well Architected Framework (General Guiding Principles) & AWS Cloud Best Practices – Design Principles](Journey/050/Readme.md)
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [](Journey/051/Readme.md)
+- [ ] ☁️ 51 > [Meet7 - ELB & ASG](Journey/051/Readme.md)
 - [ ] ☁️ 52 > [](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
