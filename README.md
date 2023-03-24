@@ -89,11 +89,11 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 ## Winding through the canyons
 
 - [ ] ☁️ 51 > [Meet7 - ELB & ASG](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [](Journey/052/Readme.md)
-- [ ] ☁️ 53 > [](Journey/053/Readme.md)
-- [ ] ☁️ 54 > [](Journey/054/Readme.md)
-- [ ] ☁️ 55 > [](Journey/055/Readme.md)
-- [ ] ☁️ 56 > [](Journey/056/Readme.md)
+- [ ] ☁️ 52 > [Pillars Well Architected Framework Part 1 ](Journey/052/Readme.md)
+- [ ] ☁️ 53 > [Pillars Well Architected Framework Part 2 ](Journey/053/Readme.md)
+- [ ] ☁️ 54 > [AWS Well-Architected tool, AWS Right Sizing, and AWS Ecosystem – Free resources](Journey/054/Readme.md)
+- [ ] ☁️ 55 > [AWS Marketplace, AWS Training, AWS Professional Services & Partner Network](Journey/055/Readme.md)
+- [ ] ☁️ 56 > [AWS Knowledge Center, AWS IQ, AWS Managed Service (AMS)](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [](Journey/058/Readme.md)
 - [ ] ☁️ 59 > [](Journey/059/Readme.md)
