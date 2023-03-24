@@ -1,52 +1,59 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Pillars Well Architected Framework Part 1 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+1. Performance Efficiency
+2. Cost Optimization
+3. Sustainability
 
 ## Cloud Research
+4) Performance Efficiency
+Includes the ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Design Principles :
+	- Democratize advanced technologies - Advance technologies become services and hence you can focus more on product development
+	- Go global in minutes - Easy deployment in multiple regions
+	- Use serverless architectures - Avoid burden of managing servers
+	- Experiment more often - Easy to carry out comparative testing
+	- Mechanical sympathy - Be aware of all AWS services
 
-## Try yourself
+AWS services used fo performance efficiency :
+- Selection : Auto Scaling, AWS Lambda, Amazon EBS, Amazon (S3), Amazon RDS
+- Review : AWS CloudFormation, AWS News Blog
+- Monitoring : Amazon CloudWatch, AWS Lambda
+- Tradeoffs : Amazon RDS, Amazon ElastiCache, AWS Snowball, Amazon CloudFront
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+5) Cost Optimization
+Includes the ability to run systems to deliver business value at the lowest price point
 
-### Step 1 — Summary of Step
+Design Principles :
+	- Adopt a consumption mode - Pay only for what you use
+	- Measure overall efficiency - Use CloudWatch
+	- Stop spending money on data center operations - AWS does the infrastructure part and enables customer to focus on organization projects
+	- Analyze and attribute expenditure - Accurate identification of system usage and costs, helps measure return on investment (ROI) - Make sure to use tags
+	- Use managed and application level services to reduce cost of ownership - As managed services operate at cloud scale, they can offer a lower cost per transaction or service
 
-![Screenshot](https://via.placeholder.com/500x300)
+AWS services used for Cost Optimization :
+- Expenditure Awareness : AWS Budgets, AWS Cost and Usage Report, AWS Cost Explorer, Reserved Instance Reporting
+- Cost-Effective Resources : Spot instance, Reserved instance, Amazon S3 Glacier
+- Matching supply and demand : AWS Auto Scaling, AWS Lambda
+- Optimizing Over Time : AWS Trusted Advisor, AWS Cost and Usage Report,AWS News Blog
 
-### Step 1 — Summary of Step
+6) Sustainability
+The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Design Principles
+	- Understand your impact – establish performance indicators, evaluate improvements
+	- Establish sustainability goals – Set long-term goals for each workload, model return on investment (ROI)
+	- Maximize utilization – Right size each workload to maximize the energy efficiency of the underlying hardware and minimize idle resources.
+	- Anticipate and adopt new, more efficient hardware and software offerings – and design for flexibility to adopt new technologies over time.
+	- Use managed services – Shared services reduce the amount of infrastructure; Managed services help automate sustainability best practices as moving infrequent accessed data to cold storage and adjusting compute capacity.
+	- Reduce the downstream impact of your cloud workloads – Reduce the amount of energy or resources required to use your services and reduce the need for your customers to upgrade their devices
 
-### Step 3 — Summary of Step
+AWS services used for Sustainability :
+- EC2 Auto Scaling, Serverless Offering (Lambda, Fargate)
+- Cost Explorer, AWS Graviton 2, EC2 T instances, @Spot Instances
+- EFS-IA, Amazon S3 Glacier, EBS Cold HDD volumes
+- S3 Lifecycle Configurations, S3 Intelligent Tiering
+- Amazon Data Lifecycle Manager
+- Read Local, Write Global: RDS Read Replicas, Aurora Global DB, DynamoDB Global Table, CloudFront
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
