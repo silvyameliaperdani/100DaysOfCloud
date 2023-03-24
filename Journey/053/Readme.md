@@ -1,4 +1,4 @@
-# Pillars Well Architected Framework Part 1 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
+# Pillars Well Architected Framework Part 2 - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek
 
 ## Introduction
 1. Performance Efficiency
