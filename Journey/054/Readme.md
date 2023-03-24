@@ -1,4 +1,4 @@
-# New post title here
+# AWS Well-Architected tool, AWS Right Sizing, and AWS Ecosystem – Free resources - Course AWS Certified Cloud Practitioner on Udemy by Stephane Maarek 
 
 ## Cloud Research
 ## AWS Well-Architected tool
@@ -26,13 +26,4 @@ tools = [link](https://console.aws.amazon.com/wellarchitected)
 	- [link](https://aws.amazon.com/solutions/implementations/aws-landing-zone/)
 	- “Replaced” by AWS Control Tower
 
-## AWS Marketplace
-Digital catalog with thousands of software listings from independent software vendors (3rd party).If you buy through the AWS Marketplace it goes into your AWS bill and you can sell your own solutions on the AWS Marketplace
-
-Example :
-
-- Custom AMI (custom OS, firewalls, technical solutions…)
-- CloudFormation templates
-- Software as a Service
-- Containers
 
