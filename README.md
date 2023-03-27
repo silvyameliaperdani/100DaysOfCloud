@@ -94,7 +94,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 54 > [AWS Well-Architected tool, AWS Right Sizing, and AWS Ecosystem – Free resources](Journey/054/Readme.md)
 - [ ] ☁️ 55 > [AWS Marketplace, AWS Training, AWS Professional Services & Partner Network](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [AWS Knowledge Center, AWS IQ, AWS Managed Service (AMS)](Journey/056/Readme.md)
-- [ ] ☁️ 57 > [](Journey/057/Readme.md)
+- [ ] ☁️ 57 > [Meet8 - Create Bucket & Static Website on AWS S3](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [](Journey/058/Readme.md)
 - [ ] ☁️ 59 > [](Journey/059/Readme.md)
 - [ ] ☁️ 60 > [](Journey/060/Readme.md)
