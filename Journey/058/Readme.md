@@ -1,9 +1,10 @@
 
 
-# New post title here
+# Meet9 - VPC Hands On [Mentor : Yosep Kusuma Wibawa]
 
 ## Cloud Research
 
+# Create VPC & Subnets 
 - First on AWS search look for VPC
 ![image](https://user-images.githubusercontent.com/121029600/228491473-c0ebc9c2-c7fc-4491-875d-f580990c7ad4.png)
 
@@ -32,6 +33,7 @@
 - OK, it worked, friends
 ![image](https://user-images.githubusercontent.com/121029600/228494806-3c7db2ee-1267-435c-a536-0b799fc7707e.png)
 
+# Launch instance
 Here we will create 2 instances, provided that the first instance is a public instance and uses a public subnet, while the second private instance uses a private subnet
 - Duplicate the tab in the browser, then find EC2 and click on EC2
 ![image](https://user-images.githubusercontent.com/121029600/228494986-f8bb7f27-9e78-469e-a89a-0acf3e4d4d25.png)
@@ -39,6 +41,7 @@ Here we will create 2 instances, provided that the first instance is a public in
 - On the instances tab click Launch Instance
 ![image](https://user-images.githubusercontent.com/121029600/228495411-f4f217ec-9356-4f23-8ffb-9524c665e0f8.png)
 
+# Public Instance
 - Here we will create a public-instance first, name the instance up to you
 ![image](https://user-images.githubusercontent.com/121029600/228498495-65862c92-a814-46e5-a7dd-6cbe07048065.png)
 
@@ -79,8 +82,10 @@ Here we will create 2 instances, provided that the first instance is a public in
 - Copy the example, and paste it in cmd, it can be seen that the instance cannot remote yet
 ![image](https://user-images.githubusercontent.com/121029600/228506324-3dfb0f70-78a1-4ad1-9b61-e200c8dfecd8.png)
 
-
+# Create igw & route table
 If we want our instance to be able to access the internet and be remote, we must first set the internet gateway and route table
+
+# Internet gateway
 - On the VPC open the internet gateway tab, click create internet gateway
 ![image](https://user-images.githubusercontent.com/121029600/228506616-e5595a29-5a4d-4a7d-862f-7ad1d4cda66b.png)
 
@@ -94,16 +99,20 @@ If we want our instance to be able to access the internet and be remote, we must
 ![image](https://user-images.githubusercontent.com/121029600/228508041-083f698f-f977-42af-a7b6-ef9cb49adee4.png)
 ![image](https://user-images.githubusercontent.com/121029600/228508305-3a2e2956-a756-4e39-9e44-1a1c950f663c.png)
 
+# Route table
 - Move to the Route tables tab, then click Create route table
 ![image](https://user-images.githubusercontent.com/121029600/228508436-91457d56-2e8d-46da-a9dd-97a4943412d7.png)
 
 Here we create 2 route tables, namely public-rt and private-rt
+# Public 
 - Name and select the VPC that we created then click create route table
 ![image](https://user-images.githubusercontent.com/121029600/228530340-a34ebfa3-94be-49ad-98d5-2b48d6e9b06e.png)
 
+# Private 
 - Name and select the VPC that we created then click create route table
 ![image](https://user-images.githubusercontent.com/121029600/228530517-28498fb9-47a1-4503-bb69-3864402c847d.png)
 
+# Associate subnets to the route table
 - Select public-rt, go to the subnet associations tab and click edit subnet associations
 ![image](https://user-images.githubusercontent.com/121029600/228530650-532cdfae-ce83-4371-98e2-054550100de5.png)
 
@@ -125,11 +134,13 @@ Here we create 2 route tables, namely public-rt and private-rt
 - Select the internet gateway that was created earlier, then click save changes
 ![image](https://user-images.githubusercontent.com/121029600/228540737-4d575d02-731f-49bd-8c69-2381e216dc81.png)
 
+# Verify
 - SSH into the instance again
 ![image](https://user-images.githubusercontent.com/121029600/228540882-e00a8bcb-3a8b-4fe2-a03d-5d0cbcd2862f.png)
 
 - Ping google.com, and yeah it worked ttl
 ![image](https://user-images.githubusercontent.com/121029600/228541273-6f9439a3-c30a-427d-a887-af55abe23606.png)
+
 
 # Private instances
 - On EC2 click Launch instance
@@ -153,6 +164,26 @@ Here we create 2 route tables, namely public-rt and private-rt
 - Select the VPC and subnet that we have created
 ![image](https://user-images.githubusercontent.com/121029600/228543809-b59b7438-a613-4793-99cf-e928b0b79ad3.png)
 
-- 
+- Create new sg, select custom and change target for igw from public instance, click launch instance
+![image](https://user-images.githubusercontent.com/121029600/228550397-87301b70-601c-4ef4-b16f-dec64ccda46d.png)
+
+
+# Testing
+- Create a key pair file
+![image](https://user-images.githubusercontent.com/121029600/228550934-1887fba8-4e3a-44cc-a5b0-b00da8250700.png)
+
+- Unlock your key pair from laptop, and copy then paste in this file
+![image](https://user-images.githubusercontent.com/121029600/228552876-a53abb06-5065-4af8-bf6d-2fd3eb61cde8.png)
+
+- Give execute permission to privateinstance.pem and try ssh
+![image](https://user-images.githubusercontent.com/121029600/228552970-d08d1352-1c9c-4f1f-978a-ba68b90e1726.png)
+
+- AND YEAH SUCCESS !!!
+![image](https://user-images.githubusercontent.com/121029600/228556613-27fbab18-e845-45a8-9676-2856f4dbf7c8.png)
+
+
+
+
+
 
 
