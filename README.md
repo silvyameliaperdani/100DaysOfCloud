@@ -97,7 +97,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 57 > [Meet8 - Create Bucket & Static Website on AWS S3](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [Meet9 - VPC Hands On](Journey/058/Readme.md)
 - [ ] ☁️ 59 > [Web Server With Wordpress - EC2 Section](Journey/059/Readme.md)
-- [ ] ☁️ 60 > [](Journey/060/Readme.md)
+- [ ] ☁️ 60 > [Meet10 - Compute, Network, Alert - EasyStack](Journey/060/Readme.md)
 
 ## Stumbling through the caves
 
