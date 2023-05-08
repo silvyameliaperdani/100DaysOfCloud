@@ -1,4 +1,4 @@
-# Upload Image, Computing, Network, and Alert in EasyStack [Mentor : Dea Tristianti]
+# Meet11 - Upload Image, Computing, Network, and Alert in EasyStack [Mentor : Dea Tristianti]
 
 ## Introduction
 In this journey, we will study the services available on EasyStack. EasyStack is a cloud computing service based on OpenStack, and EasyStack provides cloud platform solutions during the current hybrid cloud era in Asia. And at this time we will learn Upload Image, computing, network and alerts
