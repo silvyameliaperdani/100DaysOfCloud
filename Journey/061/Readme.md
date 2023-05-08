@@ -181,7 +181,43 @@ Then we attach the floating IP to the instance
 
 ![image](https://user-images.githubusercontent.com/121029600/236727680-e85e4c56-086b-4a99-976b-13949dac8747.png)
 
-- 
+- Try pinging google, and it works too
+
+![image](https://user-images.githubusercontent.com/121029600/236731313-f643099c-7735-45c2-935b-3ffbab5d9a01.png)
+
+## Alert
+- In the Service catalog Click Alert Management
+
+![image](https://user-images.githubusercontent.com/121029600/236732001-b453c1c7-d181-4a8e-a757-ae9e08302c9b.png)
+
+- Click create alerts
+
+![image](https://user-images.githubusercontent.com/121029600/236732084-12c23e5b-ce9a-4d09-ae61-f0a458b4aa04.png)
+
+- Select instances
+
+![image](https://user-images.githubusercontent.com/121029600/236732173-27b2c7ce-4bb9-4c19-9313-d56b4417dd49.png)
+
+- Set the alert set
+
+![image](https://user-images.githubusercontent.com/121029600/236732224-c72c677f-a5c8-4463-b816-e51a3fbb6966.png)
+
+- Click create contact info
+
+![image](https://user-images.githubusercontent.com/121029600/236732275-86774363-386f-44b6-8705-fe764c10b69a.png)
+
+- Enter your active email for alarm notifications
+
+![image](https://user-images.githubusercontent.com/121029600/236732344-ee94ca49-95a7-41a7-9f34-a4a60e35bbde.png)
+
+- Click create
+
+![image](https://user-images.githubusercontent.com/121029600/236732400-5bf6033a-e961-4b68-af6a-c0668cb646cb.png)
+
+- Wait until you get an alarm email like this
+
+![image](https://user-images.githubusercontent.com/121029600/236732495-6b6f80b1-9eb7-40ec-b8bc-b9891b0542fc.png)
+
 
 
 
