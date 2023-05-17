@@ -1,4 +1,4 @@
-# New post title here
+# Create Volume, Attach Volume and Detach Volume in EasyStack - Storage Section 
 ## Introduction
 Here we will learn about how to create volumes, attach volumes to instances, and detach volumes from instances
 ## Cloud Research
