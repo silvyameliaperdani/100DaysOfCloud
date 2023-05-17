@@ -1,52 +1,52 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# 
 
 ## Introduction
 
 ✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
+## Edit Volume
+- If you want to change basic volume information, such as name and description, select the volume, then click More and select edit
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/a55c4076-cbb6-41d0-aeeb-2401b17a8913)
 
-## Try yourself
+- Edit if you click save
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/60a52d22-c7df-4184-a3e8-71ec01507391)
 
-### Step 1 — Summary of Step
+- And yeah succeed
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/7038a3dc-82f9-466c-88d8-4022f8c2c47f)
 
-### Step 1 — Summary of Step
+## Extend Volume 
+If the size of a volume in the Available and In use state cannot meet service requirements, you can expand the volume size to larger capacity
+- Select the volume and click more then choose extend size
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/4cc4b8bf-60eb-44df-80c2-33a5015331ac)
 
-### Step 3 — Summary of Step
+- Specify the volume size and click Extend
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/711ae727-29d6-4594-856c-752af2d7bff1)
 
-## ☁️ Cloud Outcome
+- Click Confirm
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/6a99de66-9d0f-445e-86f0-7f81b3ff8c22)
 
-## Next Steps
+- You can see that the size has changed
 
-✍️ Describe what you think you think you want to do next.
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/06dc5efd-5cb7-442b-a3a3-b3547caa78fc)
 
-## Social Proof
+## NOTE :
+- After expanding the volume capacity, you must log in to the instance and manually modify the file system configuration to make the additional capacity take effect.
+- If an expanded volume has not been attached, the capacity expansion takes effect immediately after you attach the disk to a instance
+- Because the volume capacity that has been changed cannot be reduced, you are advised to set a proper capacity during expansion
+- After expanding an In-use volume, if the boot source kernel version of the instance mounted on the volume is too low, you may not see the additional capacity in instance. In this case, detach the disk and reattach it, or stop theinstance and then start it.
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+## Create Image Using Volume 
+A volume can be used to create an instance image. It is recommended that you create an image in RAW format. This function is usually used by common users to create a required ISO format image in the project
+- Select the volume then click more and select create image
 
-[link](link)
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/e05cdf15-0216-4876-819d-29791328358b)
+
+- 
