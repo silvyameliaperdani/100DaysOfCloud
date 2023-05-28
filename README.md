@@ -103,7 +103,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 
 - [ ] ☁️ 61 > [Meet11 - Instance with Floating IP and Alert - EasyStack](Journey/061/Readme.md)
 - [ ] ☁️ 62 > [Create Volume, Attach Volume and Detach Volume](Journey/062/Readme.md)
-- [ ] ☁️ 63 > [](Journey/063/Readme.md)
+- [ ] ☁️ 63 > [Meet12 - Load Balancer - EasyStack](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [](Journey/066/Readme.md)
