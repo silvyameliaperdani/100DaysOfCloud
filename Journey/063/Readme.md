@@ -1,52 +1,77 @@
-# 
+# Load Balancer at EasyStack [ Mentor : Dea Tristianti ]
 
 ## Introduction
+On this journey, we will learn how to make load balancing on easy stack, the things we will do this time are:
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- Create instances
+- Create a security group
+- Add a security group to the instance
+- Create a simple web in an example
+- Create Load Balancers
+- Create an HTTP Listener
+- Create a Resource Pool
+- Add resources
+- Associate floating IP
+
+# Cloud Research 
+
+## Create Instance 
+In load balancing we need 2 instances, and we have created 2 instances as shown below, for how to create an instance can be seen in the previous journey
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/c48495de-fe05-4c29-9acf-ec82b5eb4523)
+
+## Create Security Group 
+To make the instance web accessible, we need to grant HTTP permission to it, for that we need to create a security group
+- Give it a name then click create
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/4276035d-920e-42a3-b2fa-645e3d3d3bd6)
+
+- Click add rule
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/488eb75a-577d-4159-b3c4-47c59b1dce1f)
+
+- Choose HTTP,for others leave it default and click add rule
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/5b08b924-e5a9-41c4-a319-c416e6d0c4dd)
+
+## Add Security Group to Instance 
+- Select instance,click more and choose edit security group
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/818ea88a-d9b0-4e1b-a630-c8ec3ac7cc5b)
+
+- Then,click security group that you want to add,click save
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/ef4193dd-ed52-4f5c-b3ae-9fb59319e108)
+
+## Create Simple Web in Instance 
+First you must remote the instance,you can remote by keypair or password
+
+## First instance 
+- Install httpd 
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/a9f7459b-c6a4-4e13-991b-7997efca3b86)
+
+-Edit file index.html 
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/a257a84e-9d58-4baf-818e-de4d94e541dd)
+
+- Enter teks that you need to display when accessed by a web server
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/cdd16e2f-5d69-4d50-846d-b0c235f2c138)
+
+- Start and enabled httpd service
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/6657427d-1439-4b51-8fd3-47130fb7953c)
+
+## Second Instance 
+- Install httpd 
+- Edit file index.html 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/08b19e8d-e1b2-4ba5-9911-9de838d96ba4)
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/10dc8859-8be9-4ddd-bfbd-b8ac5f823e8b)
+
+- Start and enabled httpd service
+
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/6d64daa5-b391-4a63-b5e3-dc22c8b961e6)
 
 
-## Cloud Research
-## Edit Volume
-- If you want to change basic volume information, such as name and description, select the volume, then click More and select edit
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/a55c4076-cbb6-41d0-aeeb-2401b17a8913)
-
-- Edit if you click save
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/60a52d22-c7df-4184-a3e8-71ec01507391)
-
-- And yeah succeed
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/7038a3dc-82f9-466c-88d8-4022f8c2c47f)
-
-## Extend Volume 
-If the size of a volume in the Available and In use state cannot meet service requirements, you can expand the volume size to larger capacity
-- Select the volume and click more then choose extend size
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/4cc4b8bf-60eb-44df-80c2-33a5015331ac)
-
-- Specify the volume size and click Extend
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/711ae727-29d6-4594-856c-752af2d7bff1)
-
-- Click Confirm
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/6a99de66-9d0f-445e-86f0-7f81b3ff8c22)
-
-- You can see that the size has changed
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/06dc5efd-5cb7-442b-a3a3-b3547caa78fc)
-
-## NOTE :
-- After expanding the volume capacity, you must log in to the instance and manually modify the file system configuration to make the additional capacity take effect.
-- If an expanded volume has not been attached, the capacity expansion takes effect immediately after you attach the disk to a instance
-- Because the volume capacity that has been changed cannot be reduced, you are advised to set a proper capacity during expansion
-- After expanding an In-use volume, if the boot source kernel version of the instance mounted on the volume is too low, you may not see the additional capacity in instance. In this case, detach the disk and reattach it, or stop theinstance and then start it.
-
-## Create Image Using Volume 
-A volume can be used to create an instance image. It is recommended that you create an image in RAW format. This function is usually used by common users to create a required ISO format image in the project
-- Select the volume then click more and select create image
-
-![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/e05cdf15-0216-4876-819d-29791328358b)
-
-- 
