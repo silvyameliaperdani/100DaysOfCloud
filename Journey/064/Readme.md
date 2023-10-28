@@ -72,8 +72,30 @@ Amazon Web Services (AWS) adalah platform cloud yang aman yang menawarkan serang
 ## Infrastruktur AWS ( Region, AZ, POP & Edge dan data center )
 
 ### AWS Region 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/87c066b0-92b4-4da6-9fbd-55442d5c8acd)
 
 AWS memiliki Wilayah di seluruh dunia, nama dapat berupa us-east-1, eu-west-3 dan lain-lain. Region adalah kumpulan pusat data 
+
 ### Availability Zone (AZ)
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/aef62ed7-13ba-49b2-9c71-0ee56821f220)
+
 Availability Zone (AZ) adalah satu atau lebih pusat data tersembunyi dengan daya, jaringan dan konektivitas yang melimpah di Wilayah AWS
+
+### POP & Edge
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/a850c662-5a1f-4ff6-95d9-66d5d603f14a)
+
+Amazon memiliki 216 Titik Kehadiran (205 Lokasi Edge & 11 Regional Cache) di 84 kota di 42 negara. Konten dikirimkan ke pengguna akhir dengan latensi lebih rendah.
+
+### Data Center 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/8db784a7-223b-4f62-8541-bdb580ebf289)
+
+Data center atau lebih dikenal dengan pusat data merupakan ruangan yang dirancang khusus untuk tempat penyimpanan file, informasi bisnis, hingga server komputer dari perusahaan yang biasanya terhubung dengan jaringan internet.
+
+## Hasil mengerjakan Knowledge Chapter 1
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/cdbe5385-3de9-4ea7-b695-a9d45c4c0b0c)
+
+![modul 1](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/896a7943-8c2e-47f3-9579-3b1900ef44ba)
+
+
+
 
