@@ -15,7 +15,7 @@ Pada Journey kali ini kita akan belajar tentang Pengenalan Cloud Computing
   
 # Cloud Research 
 ## Pengertian Cloud Computing 
-Cloud Computing atau dalam bahasa indonesia disebut dengan Komputasi Awan adalah pengiriman sesuai permintaan untuk daya komputasi, basis data, penyimpanan, aplikasi dll, melalui internet dengan harga sesai pemakaian
+Cloud Computing atau dalam bahasa indonesia disebut dengan Komputasi Awan adalah pengiriman sesuai permintaan untuk daya komputasi, basis data, penyimpanan, aplikasi dll, melalui internet dengan harga sesuai pemakaian
 
 ##  Model Layanan Cloud Computing
 Untuk Model Layanan Cloud ada 3 yaitu :
