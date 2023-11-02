@@ -105,7 +105,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 62 > [Create Volume, Attach Volume and Detach Volume - EasyStack](Journey/062/Readme.md)
 - [ ] ☁️ 63 > [Meet12 - Load Balancer - EasyStack](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [AWS Cloud Foundation Chapter 1](Journey/064/Readme.md)
-- [ ] ☁️ 65 > [](Journey/065/Readme.md)
+- [ ] ☁️ 65 > [AWS Cloud Foundation Chapter 2 & 3](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [](Journey/066/Readme.md)
 - [ ] ☁️ 67 > [](Journey/067/Readme.md)
 - [ ] ☁️ 68 > [](Journey/068/Readme.md)
