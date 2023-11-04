@@ -136,6 +136,14 @@ Grup keamanan mengontrol lalu lintas yang diizinkan untuk mencapai dan meninggal
 -  Untuk grup keamanan, semua aturan dievaluasi sebelum keputusan dibuat untuk mengizinkan lalu lintas. Untuk ACL jaringan , aturan dievaluasi dalam urutan nomor sebelum keputusan dibuat untuk mengizinkan lalu lintas.
 
  # Amazon Route 53
- 
+ Amazon Route 53 adalah layanan web Sistem Nama Domain (DNS) dengan ketersediaan tinggi dan dapat diskalakan. Route 53 menghubungkan permintaan pengguna ke aplikasi internet yang berjalan di AWS atau on-premise. Amazon Route 53 juga menawarkan Registrasi Nama Domain—Anda dapat membeli dan mengelola nama domain (seperti example.com), dan Amazon Route 53 akan mengonfigurasi pengaturan DNS secara otomatis untuk domain Anda.
+
+ Amazon Route 53 memungkinkan Anda meningkatkan ketersediaan aplikasi Anda yang berjalan di AWS dengan:
+ - Mengonfigurasi skenario cadangan dan failover untuk aplikasi Anda sendiri.
+ - Memungkinkan arsitektur multi-Wilayah yang sangat tersedia di AWS.
+ - Membuat pemeriksaan kesehatan untuk memantau kesehatan dan kinerja aplikasi, server web, dan sumber daya lainnya. Setiap pemeriksaan kesehatan yang Anda buat dapat memantau salah satu hal berikut—kesehatan sumber daya tertentu, seperti server web; status pemeriksaan kesehatan lainnya; dan status alarm Amazon CloudWatch.
+
+## Amazon CloudFront 
+Amazon CloudFront adalah layanan jaringan pengiriman konten (CDN) yang dibuat untuk performa tinggi, keamanan, dan kenyamanan developer. Sebuah jaringan penyampaian konten (CDN) adalah sistem server pembuatan cache yang didistribusikan secara global. CDN menyimpan salinan file yang biasa diminta dalam cache (konten statis, seperti Hypertext Markup Language, atau HTML; Cascading Style Sheet, atau CSS; JavaScript; dan file gambar) yang di-host di server asal aplikasi. CDN memberikan salinan lokal dari konten yang diminta dari edge cache atau Point of Presence yang menyediakan pengiriman tercepat untuk pemohon
 
 
