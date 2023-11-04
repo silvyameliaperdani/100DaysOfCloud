@@ -1,6 +1,8 @@
 # Cloud Computing Part 4 [ Pemateri : Tiara Dwi Maulita Sari ]
 
 ## Introduction
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/7b121189-ee3d-41cb-89ac-c55dce26e090)
+
 Pada pertemuan kali ini kita akan belajar mengenai VPC 
 Topik yang akan dipelajari pada section kali ini adalah :
 - Dasar-dasar Jaringan
@@ -14,10 +16,14 @@ Letsgooooo!!!
 ## Cloud Research
 # Dasar-dasar Jaringan 
 
-## Jaringan  
+## Jaringan
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/72db8aaf-49a9-4cbe-bdd0-c6e7a66e099f)
+
 Jaringan komputer mengacu pada perangkat komputasi yang saling terhubung serta dapat bertukar data dan berbagi sumber daya satu sama lain. Perangkat jaringan ini menggunakan sistem aturan, yang disebut sebagai protokol komunikasi, untuk mentransmisikan informasi melalui teknologi fisik atau nirkabel.
 
 ## Alamat IP 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/c1330ca4-be84-4973-ba60-2a6cb2c2187c)
+
 Setiap mesin client dalam jaringan memiliki alamat IP yang unik. Alamat IP adalah label numerik dalam format desimal. 
 
 ## Alamat IPv4 dan IPv6 
@@ -40,6 +46,8 @@ Alamat CIDR dinyatakan sebagai berikut:
 Model Open Systems Interconnection (OSI) adalah kerangka kerja konseptual yang membagi fungsi komunikasi jaringan menjadi tujuh lapisan. Pengiriman data melalui jaringan sangat kompleks karena berbagai teknologi perangkat keras serta perangkat lunak harus bekerja secara kohesif melintasi batas-batas geografis dan politik. Model data OSI menyediakan bahasa universal untuk jaringan komputer, sehingga beragam teknologi dapat berkomunikasi menggunakan aturan komunikasi atau protokol standar. Setiap teknologi dalam lapisan khusus harus menyediakan kemampuan tertentu dan melakukan fungsi yang spesifik agar berguna dalam jaringan. Teknologi di lapisan yang lebih tinggi mendapatkan keuntungan dari abstraksi karena dapat menggunakan teknologi tingkat yang lebih rendah tanpa harus mengkhawatirkan detail implementasi yang mendasarinya
 
 # Amazon VPC 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/37d7f77f-5581-4e84-a9d2-fabc50361c22)
+
 Amazon Virtual Private cloud (Amazon VPC) adalah layanan yang memungkinkan Anda menyediakan bagian yang terisolasi secara logis dari AWS cloud (disebut virtual private cloud, atau VPC), tempat Anda dapat meluncurkan sumber daya AWS anda
 
 **VPC memberikan control atas sumber daya jaringan virtual anda, termasuk :**
@@ -144,6 +152,25 @@ Grup keamanan mengontrol lalu lintas yang diizinkan untuk mencapai dan meninggal
  - Membuat pemeriksaan kesehatan untuk memantau kesehatan dan kinerja aplikasi, server web, dan sumber daya lainnya. Setiap pemeriksaan kesehatan yang Anda buat dapat memantau salah satu hal berikut—kesehatan sumber daya tertentu, seperti server web; status pemeriksaan kesehatan lainnya; dan status alarm Amazon CloudWatch.
 
 ## Amazon CloudFront 
-Amazon CloudFront adalah layanan jaringan pengiriman konten (CDN) yang dibuat untuk performa tinggi, keamanan, dan kenyamanan developer. Sebuah jaringan penyampaian konten (CDN) adalah sistem server pembuatan cache yang didistribusikan secara global. CDN menyimpan salinan file yang biasa diminta dalam cache (konten statis, seperti Hypertext Markup Language, atau HTML; Cascading Style Sheet, atau CSS; JavaScript; dan file gambar) yang di-host di server asal aplikasi. CDN memberikan salinan lokal dari konten yang diminta dari edge cache atau Point of Presence yang menyediakan pengiriman tercepat untuk pemohon
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/54ea09e1-cda1-4651-89a7-7e3ec48fb218)
+
+Sebuah jaringan penyampaian konten (CDN) adalah sistem server pembuatan cache yang didistribusikan secara global. CDN menyimpan salinan file yang biasa diminta dalam cache (konten statis, seperti Hypertext Markup Language, atau HTML; Cascading Style Sheet, atau CSS; JavaScript; dan file gambar) yang di-host di server asal aplikasi. CDN memberikan salinan lokal dari konten yang diminta dari edge cache atau Point of Presence yang menyediakan pengiriman tercepat untuk pemohon. **Amazon CloudFront** adalah layanan jaringan pengiriman konten (CDN) yang dibuat untuk performa tinggi, keamanan, dan kenyamanan developer. 
+
+Amazon CloudFront memberikan manfaat sebagai berikut:
+- Cepat dan global-Amazon CloudFront diskalakan secara masif dan didistribusikan secara global. 
+- Keamanan di edge–Amazon CloudFront menyediakan perlindungan tingkat jaringan dan tingkat aplikasi. 
+- Dapat diprogram sepenuhnya–Fitur Amazon CloudFront dapat dikustomisasi untuk persyaratan aplikasi tertentu.
+- Terintegrasi secara mendalam dengan AWS–Amazon CloudFront terintegrasi dengan AWS, dengan lokasi fisik yang terhubung langsung ke Infrastruktur Global AWS, serta layanan AWS lain
+- Hemat biaya–Amazon CloudFront hemat biaya karena tidak memiliki komitmen minimum dan biaya Anda hanya untuk apa yang Anda pakai.
+
+**Harga Amazon CloudFront**
+Biaya Amazon CloudFront ditagih berdasarkan penggunaan layanan aktual di empat area:
+- Transfer data keluar –Anda dikenakan biaya untuk volume data yang ditransfer keluar dari edge location Amazon CloudFront, diukur dalam GB, ke internet atau ke asal Anda (server asal AWS maupun server asal lainnya). Penggunaan transfer data Anda dijumlahkan secara terpisah untuk wilayah geografis tertentu, kemudian biayanya dihitung berdasarkan tingkat harga untuk setiap area.
+- Permintaan HTTP(S) –Anda akan dikenakan biaya untuk jumlah permintaan HTTP(S) yang dibuat ke Amazon CloudFront untuk konten Anda.
+- Permintaan pembatalan validasi –Anda dikenakan biaya per jalur dalam permintaan pembatalan validasi Anda. Jalur yang terdaftar dalam permintaan pembatalan validasi Anda merepresentasikan URL (atau beberapa URL jika jalur tersebut mengandung karakter pengganti) objek yang ingin Anda batalkan validasinya dari cache CloudFront. 
+- Secure Sockets Layer (SSL) kustom IP khusus –Anda membayar 600 USD per bulan untuk setiap sertifikat SSL kustom yang terkait dengan satu atau lebih distribusi CloudFront yang menggunakan versi IP Khusus dari dukungan sertifikat SSL kustom. Biaya bulanan ini di-prorata berdasarkan jam.
+
+
+
 
 
