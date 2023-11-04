@@ -73,4 +73,9 @@ Untuk setiap blok CIDR yang Anda tentukan, AWS mencadangkan lima alamat IP dalam
 ## Antarmuka Jaringan Elastis 
 Antarmuka jaringan elastis adalah sebuah antarmuka jaringan virtual yang dapat Anda lampirkan atau lepaskan dari instans dalam VPC. Setiap instans dalam VPC Anda memiliki antarmuka jaringan default (antarmuka jaringan utama) yang ditetapkan alamat IPv4 pribadi dari rentang alamat IPv4 dari VPC Anda. Anda tidak dapat melepaskan antarmuka jaringan utama dari instans. Anda dapat membuat dan melampirkan antarmuka jaringan tambahan untuk setiap instans di VPC Anda. Jumlah antarmuka jaringan yang dapat Anda lampirkan bervariasi menurut tipe instans.
 
+## Tabel rute dan rute 
+Tabel ruteberisi sekumpulan aturan (disebutrute)yang mengarahkan lalu lintas jaringan dari subnet Anda. Setiap rute menentukan tujuandan target. Target adalah target yang dilalui lalu lintas tujuan.Secara default, setiap rute tabel yang Anda buat berisi rute lokal untuk komunikasi di VPC. Anda dapat menyesuaikan tabel rute dengan menambahkan rute.
+
+# Jaringan VPC 
+## Gateway Internet 
 
