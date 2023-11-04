@@ -109,7 +109,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 66 > [AWS Cloud Foundation Chapter 4](Journey/066/Readme.md)
 - [ ] ☁️ 67 > [Lab 1: Introduction to AWS IAM](Journey/067/Readme.md)
 - [ ] ☁️ 68 > [AWS Cloud Foundation Chapter 5](Journey/068/Readme.md)
-- [ ] ☁️ 69 > [](Journey/069/Readme.md)
+- [ ] ☁️ 69 > [Lab 2: VPC & Web Server with EC2 Instance](Journey/069/Readme.md)
 - [ ] ☁️ 70 > [](Journey/070/Readme.md)
 
 ## Resting at the Lagoon
