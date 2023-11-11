@@ -183,3 +183,10 @@ Layanan penyimpanan AWS mencakup layanan yang tercantum di sini, dan lainnya.
 - AWS Well-Architected Tool menyediakan bantuan dalam meninjau dan meningkatkan beban kerja Anda.
 - AWS CloudTrail melacak aktivitas pengguna dan penggunaan API
 
+## Knowledge Chapter2
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/79f86f35-fb92-4d18-8e86-c6e914419db2)
+
+
+##Knowledge Chapter3
+
+
