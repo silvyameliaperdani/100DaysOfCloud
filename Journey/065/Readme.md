@@ -188,5 +188,7 @@ Layanan penyimpanan AWS mencakup layanan yang tercantum di sini, dan lainnya.
 
 
 ##Knowledge Chapter3
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/2a03fff4-8eef-482f-b7d3-14d9eb7cf008)
+
 
 
