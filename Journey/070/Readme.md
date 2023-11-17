@@ -155,5 +155,14 @@ Amazon Elastic Container Service (Amazon ECS) adalah layanan manajemen kontainer
 ## Apa itu Kubernetes 
 Kubernetesadalah perangkat lunak sumber terbuka untuk orkestrasi kontainer. Kubernetes dapat bekerja dengan banyak teknologi kontainerisasi, termasuk Docker. Karena ini adalah proyek sumber terbuka yang populer, komunitas besar developer dan perusahaan membangun ekstensi, integrasi, dan plugin yang menjaga perangkat lunak tetap relevan, dan menambahkan fitur baru dan yang banyak diminta secara berkala.Kubernetes memungkinkan Anda men-deploy dan mengelola aplikasi kontainerdalam skala besar. Dengan Kubernetes, Anda dapat menjalankan semua jenis aplikasi kontainer menggunakan peralatan yang sama di pusat data on-premise dan cloud.
 
-# Amazon Elastic Kubernetes Service 
+# AWS Lambda
+AWS Lambda adalah layanan komputasi nirserver yang digerakkan event. Lambda memungkinkan Anda menjalankan kode tanpa menyediakan atau mengelola server. Fungsi Lambda, yaitu sumber daya AWS berisi kode yang Anda unggah. Anda kemudian mengatur fungsi Lambda untuk dipicu, baik secara terjadwal atau dalam merespons suatu peristiwa. Kode Anda hanya berjalan ketika dipicu. Poin penting dari bagian modul ini:
 
+- Komputasi nirserver memungkinkan Anda membangun dan menjalankan aplikasi serta layanan tanpa menyediakan atau mengelola server.
+- AWS Lambda adalah layanan komputasi nirserver yang menyediakan toleransi kesalahan bawaan dan penskalaan otomatis.
+- Sumber peristiwa adalah layanan AWS atau aplikasi buatan developer yang memicu jalannya fungsi Lambda.
+- Alokasi memori maksimum untuk fungsi Lambda tunggal adalah 3.008 MB.
+- Waktu eksekusi maksimum untuk fungsi Lambda adalah 15 menit.
+
+# AWS Elastic Beanstalk
+AWS Elastic Beanstalk adalah opsi layanan komputasi AWS lain. Ini adalah platform as a service (atau PaaS) yang memfasilitasi deployment, penskalaan, dan manajemen cepat untuk aplikasi web dan layanan Anda. AWS Elastic Beanstalk memungkinkan Anda untuk men-deploy kode melalui AWS Management Console, AWS Command Line Interface (AWS CLI), Visual Studio, dan Eclipse. Layanan ini menyediakan semua layanan aplikasi yang dibutuhkan untuk aplikasi Anda. Satu-satunya hal yang harus Anda buat adalah kode Anda. Elastic Beanstalk dirancang untuk membuat deploy aplikasi Anda menjadi proses yang cepat dan mudah. Elastic Beanstalk mendukung berbagai platform. Platform yang didukung termasuk Docker, Go, Java, .NET, Node.js, PHP, Python, dan Ruby. AWS Elastic Beanstalk men-deploy kode Anda di Apache Tomcatuntuk aplikasi Java; Apache HTTP Serveruntuk aplikasi PHP dan Python; NGINXatau Apache HTTP Server untuk aplikasi Node.js; Passengeratau Pumauntuk aplikasi Ruby; dan Microsoft Internet Information Services (IIS) untuk aplikasi .NET, Java SE, Docker, dan Go.
