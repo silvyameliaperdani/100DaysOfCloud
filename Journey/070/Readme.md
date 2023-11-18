@@ -166,3 +166,6 @@ AWS Lambda adalah layanan komputasi nirserver yang digerakkan event. Lambda memu
 
 # AWS Elastic Beanstalk
 AWS Elastic Beanstalk adalah opsi layanan komputasi AWS lain. Ini adalah platform as a service (atau PaaS) yang memfasilitasi deployment, penskalaan, dan manajemen cepat untuk aplikasi web dan layanan Anda. AWS Elastic Beanstalk memungkinkan Anda untuk men-deploy kode melalui AWS Management Console, AWS Command Line Interface (AWS CLI), Visual Studio, dan Eclipse. Layanan ini menyediakan semua layanan aplikasi yang dibutuhkan untuk aplikasi Anda. Satu-satunya hal yang harus Anda buat adalah kode Anda. Elastic Beanstalk dirancang untuk membuat deploy aplikasi Anda menjadi proses yang cepat dan mudah. Elastic Beanstalk mendukung berbagai platform. Platform yang didukung termasuk Docker, Go, Java, .NET, Node.js, PHP, Python, dan Ruby. AWS Elastic Beanstalk men-deploy kode Anda di Apache Tomcatuntuk aplikasi Java; Apache HTTP Serveruntuk aplikasi PHP dan Python; NGINXatau Apache HTTP Server untuk aplikasi Node.js; Passengeratau Pumauntuk aplikasi Ruby; dan Microsoft Internet Information Services (IIS) untuk aplikasi .NET, Java SE, Docker, dan Go.
+
+# Hasil Knowledge 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/60bc9ca0-fdec-4de2-952a-51d60e75387c)
