@@ -115,7 +115,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 ## Resting at the Lagoon
 
 - [ ] ☁️ 71 > [Lab 3: Compute](Journey/071/Readme.md)
-- [ ] ☁️ 72 > [](Journey/072/Readme.md)
+- [ ] ☁️ 72 > [AWS Cloud Foundation Chapter 7](Journey/072/Readme.md)
 - [ ] ☁️ 73 > [](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [](Journey/074/Readme.md)
 - [ ] ☁️ 75 > [](Journey/075/Readme.md)
