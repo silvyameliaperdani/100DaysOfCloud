@@ -1,5 +1,4 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+
 
 # New post title here
 
@@ -50,3 +49,7 @@
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
 [link](link)
+
+# Knowledge 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/47599b04-f82d-445b-a79d-e01b9f47dab3)
+
