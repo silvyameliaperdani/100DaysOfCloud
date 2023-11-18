@@ -170,6 +170,8 @@ Biaya Amazon CloudFront ditagih berdasarkan penggunaan layanan aktual di empat a
 - Permintaan pembatalan validasi –Anda dikenakan biaya per jalur dalam permintaan pembatalan validasi Anda. Jalur yang terdaftar dalam permintaan pembatalan validasi Anda merepresentasikan URL (atau beberapa URL jika jalur tersebut mengandung karakter pengganti) objek yang ingin Anda batalkan validasinya dari cache CloudFront. 
 - Secure Sockets Layer (SSL) kustom IP khusus –Anda membayar 600 USD per bulan untuk setiap sertifikat SSL kustom yang terkait dengan satu atau lebih distribusi CloudFront yang menggunakan versi IP Khusus dari dukungan sertifikat SSL kustom. Biaya bulanan ini di-prorata berdasarkan jam.
 
+# Hasil Knowledge
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/5df3e810-7ca8-4ccb-9dc1-977f55d1e1dd)
 
 
 
