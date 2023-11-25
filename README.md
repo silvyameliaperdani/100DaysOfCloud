@@ -118,7 +118,7 @@ The goal is to become more knowledgeable about the concept of cloud computing. A
 - [ ] ☁️ 72 > [AWS Cloud Foundation Chapter 7](Journey/072/Readme.md)
 - [ ] ☁️ 73 > [Lab 4: Working with EBS](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [AWS Cloud Foundation Chapter 8](Journey/074/Readme.md)
-- [ ] ☁️ 75 > [](Journey/075/Readme.md)
+- [ ] ☁️ 75 > [Lab 5: Building a Database Server](Journey/075/Readme.md)
 - [ ] ☁️ 76 > [](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [](Journey/077/Readme.md)
 - [ ] ☁️ 78 > [](Journey/078/Readme.md)
