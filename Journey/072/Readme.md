@@ -50,5 +50,7 @@ Amazon S3 Glacier adalah layanan pengarsipan data yang didesain untuk keamanan, 
 - Desain berbiaya sangat rendah ini ideal untuk pengarsipan jangka panjang.
 - Menyediakan tiga opsi akses ke arsip—dipercepat, standar, dan massal—rentang waktu pengambilan berkisar dari beberapa menit hingga beberapa jam.
 
+#Knowledge 
+![image](https://github.com/silvyameliaperdani/100DaysOfCloud/assets/121029600/d24e7be9-b3a9-4a5d-aa16-19f218264098)
 
 
